@@ -26,11 +26,9 @@ window.onload = () => {
         console.error("Elements not found in the DOM.");
     }
 };
-// Function to check screen width
 function checkDevice() {
     const width = window.innerWidth;
     if (width <= 1024) {
-        // Block or redirect on mobile and tablets
         document.body.innerHTML = '<h1 class="forPC">This website is only available on PC.</h1>';
     }
 }
