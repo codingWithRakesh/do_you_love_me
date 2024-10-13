@@ -1,0 +1,9 @@
+@media only screen and (max-width: 500px) {
+    .showData{
+        height: 15rem;
+        width: 20rem;
+    }
+    .boxContain{
+        width: 90%;
+    }
+}
